@@ -1,0 +1,7 @@
+.bin {
+ background: none;
+ border: none;
+ cursor: pointer;
+}
+
+th.col_bin, td.col_bin { width: 8%; text-align: center; }

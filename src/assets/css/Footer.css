@@ -1,0 +1,75 @@
+/* CSS/Footer.css */
+.footer {
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ background-color: #4a5a6a;
+ color: white;
+ text-align: center;
+ padding-top:20px;
+ padding-bottom: 35px;
+ opacity: 0;
+ transform: translateY(100%);
+ transition: opacity 0.5s, transform 0.5s;
+ z-index: 10;
+}
+
+.footer-content {
+ max-width: 1200px;
+ margin: 0 auto;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0 30px;
+}
+
+.contact-info {
+ text-align: left;
+}
+
+.contact-title {
+ font-weight: bold;
+ font-size: 1.2em;
+ margin-bottom: 10px;
+}
+
+.contact-item {
+ display: flex;
+ align-items: center;
+ margin-bottom: 5px;
+}
+
+.contact-label {
+ font-weight: bold;
+ margin-right: 5px;
+}
+
+a {
+ color: white;
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+.copyright {
+ font-weight: bold;
+ text-align: right;
+ font-size: 0.9em;
+ margin-top: 70px;
+ margin-right: 10px;
+}
+
+.app.scrolled .footer {
+ opacity: 1;
+ transform: translateY(0);
+}
+
+/* 미디어 쿼리 추가 */
+@media (max-width: 760px) {
+ .copyright {
+   display: none;
+ }
+}

@@ -1,0 +1,81 @@
+.suggestion-form-container {
+ overflow: hidden;
+ transition: height 0.3s ease;
+ margin-bottom: 5px;
+ border: 1px solid #ddd;
+ background-color: #f9f9f9;
+ padding: 10px;
+}
+
+.suggestion-form-container.open {
+ height: 250px;
+}
+
+.suggestion-form {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ margin-top: 10px;
+}
+
+.form-group {
+ display: contents;
+}
+
+.form-group label {
+ grid-column: 1 / 2;
+ align-self: center;
+ justify-self: start;
+ padding-right: 10px;
+ font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+ grid-column: 2 / 3;
+ width: 98%;
+ padding: 8px 14px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ font-size: 14px;
+}
+
+.form-group select {
+ width: 20%;
+}
+
+.form-group textarea {
+ height: 120px;
+ resize: vertical;
+}
+
+.form-group-inline {
+ display: flex;
+ align-items: center;
+ gap: 10px; /* 건의함 선택 버튼과 제출 버튼 사이의 간격 */
+}
+
+.submit-button {
+ background: #b93234; /* 배경색 없음 */
+ color: white; /* 글자색 */
+ border: 1px solid #b93234; /* 테두리 */
+ padding: 8px 16px; /* 패딩 */
+ border-radius: 5px; /* 둥근 모서리 */
+ cursor: pointer; /* 커서 포인터 */
+ font-size: 14px; /* 글자 크기 */
+ transition: background-color 0.3s ease; /* 배경색 전환 효과 */
+}
+
+.submit-button:hover {
+ background: #cd0003; /* 호버 시 배경색 */
+}
+
+.toggle-button-container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ cursor: pointer;
+ margin-left: 10px;
+ font-weight: bold;
+}

@@ -1,0 +1,159 @@
+.table-container-wrapper {
+ position: relative;
+}
+
+.board-buttons-container {
+ display: flex;
+ justify-content: flex-start;
+ margin: 30px 4% -10px 4%;
+}
+
+.board-button {
+ background: none;
+ border: none;
+ padding: 10px 15px;
+ margin: 5px;
+ font-size: 16px;
+ cursor: pointer;
+ color: black;
+ transition: all 0.3s ease;
+ font-weight: bold;
+ white-space: nowrap; /* 한 줄로 표시 */
+ overflow: hidden; /* 넘치는 내용 숨김 */
+ text-overflow: ellipsis; /* 넘치는 내용은 ...으로 표시 */
+}
+
+.board-button:disabled {
+ pointer-events: none;
+}
+
+.board-button:hover, .board-button.selected {
+ color: #B93234;
+ font-size: 18px;
+}
+
+.table-container {
+ height: 630px;
+ overflow-y: auto;
+ margin: 10px auto;
+ width: 90%;
+ border: 1px solid #ddd;
+ padding: 10px;
+ border-radius: 10px;
+}
+
+table {
+ width: 100%;
+ border-collapse: collapse;
+ table-layout: fixed;
+}
+
+th, td {
+ padding: 11px;
+ border: 1px solid #ddd;
+ text-align: left;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+}
+
+th {
+ background-color: #f4f4f4;
+ font-weight: bold;
+}
+
+.clickable-row {
+ cursor: pointer;
+}
+
+.clickable-row:hover {
+ background-color: #f1f1f1;
+}
+
+.detailed-view-content {
+ padding: 20px;
+ border: 1px solid #ddd;
+ background-color: #f9f9f9;
+ border-radius: 10px;
+ position: relative;
+}
+
+.icon-container {
+ display: flex;
+ align-items: center;
+}
+
+.icon-text-container {
+ display: flex;
+ flex-direction: column;
+ margin-left: 10px;
+ font-size: 13px;
+ font-weight: bold;
+ color: #4a5a6a;
+}
+
+.inner-button-container {
+ display: flex;
+ justify-content: flex-start;
+ margin-top: 10px;
+}
+
+.recommend-button, .report-button, .close-button {
+ background: none;
+ border-width: 1px;
+ border-radius: 5px;
+ padding: 3px 10px;
+ font-size: 16px;
+ cursor: pointer;
+ margin-right: 10px; 
+ transition: all 0.3s ease;
+}
+
+.recommend-button:hover, .report-button:hover, .close-button:hover {
+ transform: scale(1.03);
+}
+
+.button-container {
+ display: flex;
+ justify-content: flex-end;
+ margin-right: 7%;
+}
+
+.add-button {
+ background: none;
+ border-radius: 5px;
+ border-width: 1.5px;
+ font-weight: bold;
+ padding: 10px 20px;
+ margin: 5px;
+ font-size: 12px;
+ cursor: pointer;
+ transition: all 0.3s ease;
+}
+
+.add-button:hover {
+ transform: scale(1.03);
+}
+
+/* 스크롤바 스타일링 */
+.table-container::-webkit-scrollbar {
+ width: 8px; /* 스크롤바 너비 */
+ height: 8px;
+}
+.table-container::-webkit-scrollbar-track {
+ background: #f1f1f1;
+ border-radius: 10px;
+}
+.table-container::-webkit-scrollbar-thumb {
+ background: #888;
+ border-radius: 10px;
+}
+.table-container::-webkit-scrollbar-thumb:hover {
+ background: #555;
+}
+
+th.col1, td.col1 { width: 8%; text-align: center; }
+th.col2, td.col2 { width: 36%; }
+th.col3, td.col3 { width: 36%; }
+th.col4, td.col4 { width: 10%; text-align: center; }
+th.col5, td.col5 { width: 10%; text-align: center; }
