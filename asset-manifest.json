@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/FrontEnd-Deploy/static/css/main.83294041.css",
-    "main.js": "/FrontEnd-Deploy/static/js/main.f76930a6.js",
+    "main.css": "/FrontEnd-Deploy/static/css/main.6bf125a6.css",
+    "main.js": "/FrontEnd-Deploy/static/js/main.82c6aace.js",
     "static/media/마편이.jpg": "/FrontEnd-Deploy/static/media/마편이.5c07301f3a0b156c4f06.jpg",
     "index.html": "/FrontEnd-Deploy/index.html",
-    "main.83294041.css.map": "/FrontEnd-Deploy/static/css/main.83294041.css.map",
-    "main.f76930a6.js.map": "/FrontEnd-Deploy/static/js/main.f76930a6.js.map"
+    "main.6bf125a6.css.map": "/FrontEnd-Deploy/static/css/main.6bf125a6.css.map",
+    "main.82c6aace.js.map": "/FrontEnd-Deploy/static/js/main.82c6aace.js.map"
   },
   "entrypoints": [
-    "static/css/main.83294041.css",
-    "static/js/main.f76930a6.js"
+    "static/css/main.6bf125a6.css",
+    "static/js/main.82c6aace.js"
   ]
 }
