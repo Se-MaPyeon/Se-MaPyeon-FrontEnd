@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# FrontEnd Prototype
+https://se-mapyeon.github.io/FrontEnd-Deploy/
 
 ## Available Scripts
 
